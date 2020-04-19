@@ -1,4 +1,8 @@
 package insertionSort;
+/**
+ * As there are two loops, with the while loop nested in the for loop
+ * the complexity of this algorithm is O(n^2) where n is equal to the length of the array to be sorted.
+ */
 
 public class InsertionSort {
     public void sort(int[] array){

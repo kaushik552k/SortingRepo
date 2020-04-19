@@ -9,6 +9,7 @@ package main;
 
 import bubbleSort.BubbleSort;
 import insertionSort.InsertionSort;
+import mergeSort.MergeSort;
 import selectionSort.SelectionSort;
 
 import java.util.Arrays;
@@ -47,6 +48,14 @@ public class Main {
             case 3: /* INSERTION SORT */
                 InsertionSort insertionSort = new InsertionSort();
                 insertionSort.sort( array );
+                System.out.println( "ARRAY SORTED BY INSERTION SORT" );
+                System.out.println( Arrays.toString( array ) );
+                break;
+            case 4: /* QUICK SORT */
+                break;
+            case 5:/* MERGE SORT */
+                MergeSort mergeSort = new MergeSort();
+                mergeSort.sort( array );
                 System.out.println( "ARRAY SORTED BY INSERTION SORT" );
                 System.out.println( Arrays.toString( array ) );
                 break;
