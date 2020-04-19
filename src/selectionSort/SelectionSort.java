@@ -5,7 +5,7 @@
  *   Time: 3:36 AM
  */
 
-package selectionsort;
+package selectionSort;
 
 public class SelectionSort {
     public void sort(int[] array) {

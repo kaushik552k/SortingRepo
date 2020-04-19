@@ -5,7 +5,7 @@
  *   Time: 10:41 AM
  */
 
-package bubblesort;
+package bubbleSort;
 
 public class BubbleSort {
 
